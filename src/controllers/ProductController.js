@@ -9,4 +9,11 @@ module.exports = {
 
     return res.json(products);
   },
+  async store(req,res){
+    //recebe o corpo da requisição
+    const product = Product.create(req.body); 
+
+    //devolve como resposta o product criado
+    return res.json(product);
+  }
 };
