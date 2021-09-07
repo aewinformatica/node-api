@@ -6,6 +6,11 @@ npm install cors
 resetar commit com usuario errado
 git reset --soft HEAD~1
 
+
+para ver se as chaves SSH existentes estão presentes:
+
+Digite ls -al ~/.ssh
+
 gerando chave SSH
 ssh-keygen -t ed25519 -C "aewinformatica@gmail.com"
 
