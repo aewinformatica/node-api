@@ -21,3 +21,8 @@ abra o arquivo .pub copie a chave e inclua.
 testando conexao ssh
 
 ssh -T git@github.com
+
+usuario por projeto
+
+git config --local user.name=""
+git config --local user.email=""
